@@ -16,10 +16,10 @@ class CounterProvider with ChangeNotifier{
 
   void incrementCounterOne() async{
     _count1++;
-    FirebaseFirestore.instance
-        .collection("counter01")
-        .doc("chatRoomId")
-        .collection("counter_val").get();
+    // FirebaseFirestore.instance
+    //     .collection("counter01")
+    //     .doc("chatRoomId")
+    //     .collection("counter_val").get();
     notifyListeners();
   }
 
