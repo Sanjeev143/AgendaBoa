@@ -23,7 +23,6 @@ class CounterOne extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         key: const Key('increment_floatingActionButton'),
-
         /// Calls `context.read` instead of `context.watch` so that it does not rebuild
         /// when [Counter] changes.
         onPressed: () => context.read<CounterProvider>().incrementCounterOne(),
