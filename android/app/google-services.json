@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "108959283449",
+    "project_id": "agendaboa-72739",
+    "storage_bucket": "agendaboa-72739.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108959283449:android:bbf470f174869710bb4a28",
+        "android_client_info": {
+          "package_name": "com.agendaboa.agenda_boa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108959283449-ol61tpbt5j5v1i2u3h1shnm7unnpktrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF80JbIjpGbAIhz0vUtJXyIuWTQEDHDig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108959283449-ol61tpbt5j5v1i2u3h1shnm7unnpktrt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "108959283449-p5an13kkc95vi77je8902tn7don2ce1k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.agendaboa.agendaBoa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
