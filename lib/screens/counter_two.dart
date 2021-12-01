@@ -37,7 +37,7 @@ class Count extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       /// Calls `context.watch` to make [Count] rebuild when [Counter] changes.
-        '${context.watch<CounterProvider>().count1}',
+        '${context.watch<CounterProvider>().count2}',
         key: const Key('counterState'),
         style: Theme.of(context).textTheme.headline4);
   }
