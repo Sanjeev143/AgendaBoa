@@ -1,4 +1,5 @@
 // Created by Sanjeev Sangral on 30/11/21.
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 
 class CounterProvider with ChangeNotifier{
@@ -13,8 +14,12 @@ class CounterProvider with ChangeNotifier{
 
   int get selectedIndex => _currentIndex;
 
-  void incrementCounterOne() {
+  void incrementCounterOne() async{
     _count1++;
+    FirebaseFirestore.instance
+        .collection("counter01")
+        .doc("chatRoomId")
+        .collection("counter_val").get();
     notifyListeners();
   }
 

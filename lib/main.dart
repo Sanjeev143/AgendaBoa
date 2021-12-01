@@ -1,9 +1,11 @@
 import 'package:agenda_boa/provider/counter_provider.dart';
 import 'package:agenda_boa/screens/dashboard.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-void main() {
+void main() async{
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
