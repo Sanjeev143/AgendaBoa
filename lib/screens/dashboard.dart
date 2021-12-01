@@ -45,19 +45,19 @@ class Dashboard extends StatelessWidget {
         },
         items: <BottomNavyBarItem>[
           BottomNavyBarItem(
-            icon: const Icon(Icons.add),
+            icon: const Icon(Icons.home),
             title: const Text('Counter 01'),
             activeColor: Colors.blue,
             textAlign: TextAlign.center,
           ),
           BottomNavyBarItem(
-            icon: const Icon(Icons.add),
+            icon: const Icon(Icons.add_box_rounded),
             title: const Text('Counter 02'),
             activeColor: Colors.blue,
             textAlign: TextAlign.center,
           ),
           BottomNavyBarItem(
-            icon: const Icon(Icons.add),
+            icon: const Icon(Icons.add_comment),
             title: const Text('Counter 03'),
             activeColor: Colors.blue,
             textAlign: TextAlign.center,
