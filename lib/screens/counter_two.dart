@@ -35,6 +35,11 @@ class Count extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    /*Getting counter2 value from firebase*/
+    Future.delayed(const Duration(seconds: 1),(){
+      context.read<CounterProvider>().getCounterTwoVal();
+    });
+    /*-----------------End------------------*/
     return Text(
       /// Calls `context.watch` to make [Count] rebuild when [Counter] changes.
         '${context.watch<CounterProvider>().count2}',

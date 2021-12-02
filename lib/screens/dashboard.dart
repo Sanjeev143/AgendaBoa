@@ -25,6 +25,9 @@ class Dashboard extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home Page'),
+        actions: [IconButton(onPressed: (){
+          context.read<CounterProvider>().resetCounter();
+        }, icon: const Icon(Icons.refresh))],
       ),
       body: PageView(
           children: _list,
