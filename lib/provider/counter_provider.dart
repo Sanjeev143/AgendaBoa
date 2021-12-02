@@ -6,7 +6,7 @@ class CounterProvider with ChangeNotifier{
   int _count1 = 0;
   int _count2 = 0;
   int _count3 = 0;
-  int _currentIndex = 2;
+  int _currentIndex = 0;
 
   int get count1 => _count1;
   int get count2 => _count2;
